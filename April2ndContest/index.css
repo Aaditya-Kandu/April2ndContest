@@ -1,0 +1,168 @@
+body{
+    background-color:  #1E1E1E;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    background-color: #FCAF02;
+    align-items: center;
+    gap: 20px;
+   justify-content: space-between;
+}
+
+.nav-container > h1{
+    margin-left: 20px;
+}
+
+.nav-container > div > a{
+   background-color: #FCAF02;
+    margin-right: 20px;
+    border: none;
+    color: 
+    rgba(0, 0, 0, 1);
+    font-size: 20px;
+    padding-right: 50px;
+    text-decoration: none;
+   
+}
+
+button > b{
+    font-size: 18px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+img{
+    width: 450px;
+    height: 250px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+main > .main-section > button{
+    border: 2px solid #FCAF02;;
+}
+
+section > p{
+    color: rgba(255, 255, 255, 1);
+    width: 70%;
+}
+
+section > h1{
+    color: rgba(255, 255, 255, 1);
+}
+
+section > button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(252, 175, 2, 1); 
+}
+ h2{
+    color: rgba(252, 175, 2, 1);
+    padding: 20px;
+}
+
+.middle-section > .input-section1 > input {
+    display: inline-block;
+    width: 99%;
+    height: 40px;
+    border: 1px solid #FCAF02;
+    margin: 10px;
+    background-color:   #1E1E1E;
+    border-radius: 20px; 
+}
+
+.input-section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-section2 > .one{
+    width: 47%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1E1E1E;
+    border: 1px solid  #FCAF02;
+    margin: 10px;
+ 
+
+}
+
+.input-section2 > .two{
+    width: 47%;
+    height: 40px;
+    border: 1px solid  #FCAF02;
+    border-radius: 20px;
+    background-color: #1E1E1E;
+    
+}
+
+.middle-section > .submit-button > button{
+    display: block;
+    padding: 20px 0;
+    margin: 30px auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FCAF02;
+    border: 2px solid #FCAF02;
+}
+
+button > b{
+    height: 30px;
+}
+
+input[type="text"]::placeholder {
+    color: #FCAF02;
+    padding-left: 25px;
+    
+  }
+  input[type="email"]::placeholder {
+    color: #FCAF02;
+    padding-left: 25px;
+    
+  } 
+
+
+  table{
+    width: 92vw;
+    color: #FCAF02;
+    margin: 3.5%;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+thead th{
+    padding-left: 40px;
+}
+
+tfoot td{
+    padding-left: 40px;
+    background-color: #FCAF02;
+    color: black;
+    font-weight: 600;
+    border: 1.5px solid black;
+
+}
+
+
+
+
+.slnos,.startup-name, .startup-desc{
+
+    list-style-type: none;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
